@@ -4,11 +4,11 @@ import Heading from './Heading'
 function App() {
 
   const greeting = 'Welcome to Our Very Decent/Pretty Good Pizza'
-  const newVariable = 'i am another variable, please pass me with props'
+  
 
   return (
     <div className="container">
-      <Heading greeting={greeting} newVariable={newVariable}/>
+      <Heading greeting={greeting}/>
       <OrderForm />
     </div>
   )
